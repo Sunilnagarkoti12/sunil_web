@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Map Example</title>
+</head>
+<body>
+  <h1>Image Map Example</h1>
+
+  <img src="th.jpg" alt="Your Image" usemap="#map">
+
+  <map name="map">
+    <!-- Define clickable areas on the image using the <area> tag -->
+    <area shape="rect" coords="50,50,150,150" href="https://www.example.com/page1.html" alt="Link 1">
+    <area shape="circle" coords="200,100,50" href="https://www.example.com/page2.html" alt="Link 2">
+    <area shape="poly" coords="300,50,400,100,350,200,250,200,200,100" href="https://www.example.com/page3.html" alt="Link 3">
+  </map>
+</body>
+</html>
